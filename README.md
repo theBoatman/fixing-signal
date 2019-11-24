@@ -1,5 +1,11 @@
 These are unofficial 3rd party releases, containing modified code, and are not associated in any way with Signal&trade; Foundation.  
 
+## Important
+
+My patch is now merged, so it is no longer needed to run my modified builds. As there seems to be a bug in the official version of signal around version 4.49.17 that leads to possibly damaged backups,
+I provided a build of version 4.50.5, which should have this bug fixed. For migrating back to the official builds I recommend to install my build of 4.50.5 first, then take a backup and proceed
+changing to the official version. Good luck everyone!   
+
 
 ## Signal-website-release-4.NN.N-sleepfix.apk
 contains [a minimal patch#70](https://github.com/signalapp/libsignal-service-java/pull/70) to allow RealtimeSleepTimer to work in multiple threads 
